@@ -21,3 +21,4 @@ button:hover{background:#f2f2f2;border-color:#888}
 
 footer #saveStatus{display:inline;color:#555}
 #hands label{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 0}#hands select{max-width:75%;padding:7px;background:#fff;color:#000;border:1px solid #aaa;border-radius:4px}#hands>p,#materials p{font-size:11px;line-height:1.8;color:#333}
+#bossLoot p{font-size:11px;line-height:1.9;color:#333}
