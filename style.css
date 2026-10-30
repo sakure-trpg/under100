@@ -24,3 +24,5 @@ footer #saveStatus{display:inline;color:#555}
 #bossLoot p{font-size:11px;line-height:1.9;color:#333}
 
 .latest-message{grid-column:1/-1}.latest-message p{margin:0;font-size:13px;line-height:1.9;overflow-wrap:anywhere}
+
+.game{grid-template-columns:minmax(0,1fr)}.enemy-panel{grid-column:1/-1;margin-top:0;border:1px solid var(--line);padding:20px}.enemy-panel[hidden]{display:none}.hero>.journey-meta{grid-column:1/-1;margin-top:0}
