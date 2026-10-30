@@ -6,3 +6,12 @@ main{max-width:780px;padding:24px 20px}header{padding-bottom:16px;margin-bottom:
 #commands button:focus-visible{outline:auto}
 
 #commands button small{color:#000}
+
+/* Light interface */
+:root{--bg:#fff;--panel:#fff;--line:#d4d4d4;--muted:#555;--text:#000;--gold:#000}
+body{background:#fff;color:#000}
+button:hover{background:#f2f2f2;border-color:#888}
+.scene-head span+span,.scene-caption,.quest p,#log p{color:#333}
+.bar{background:#e5e5e5}.bar i{background:#555}.mana i{background:#777}.exp i{background:#999}
+#commands button,#commands button:hover{background:#fff;color:#000;border-color:#aaa}
+#commands button small{color:#000}
