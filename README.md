@@ -1,12 +1,18 @@
-# 星灯りの旅人
+# アンダー100
 
-外部フォント・画像・ライブラリ不要のコマンド式RPG。
+地上0階から地下100階を目指すブラウザ用コマンドRPG。外部フォント・画像・ライブラリは不要です。
 
-## GitHub Pagesで公開
+各層の都市で「ダンジョンに進む」「アイテムを買う」「宿泊する」、都市固有の施設を選べます。迷宮で3区画の敵を倒すと最奥のボスに挑めます。ボスを倒すと地下階段が出現し、次の層の都市へ進めます。都市へ戻っても探索状況は維持されます。地下100階への到達で踏破となります。
 
-1. このフォルダのファイルをGitHubリポジトリのmainブランチへアップロードします（.github/workflows/pages.ymlも含む）。
-2. リポジトリの Settings → Pages → Source を GitHub Actions にします。
-3. Actions の Deploy game to GitHub Pages を実行します。以後mainへのpushで自動更新します。
-4. Settings → Pages に表示されるURLでゲームを開けます。
+都市の固有施設は5種類の地区で繰り返します。敵の能力・報酬・薬草の回復量は階層で変化します。
 
-ローカルではindex.htmlを開いて遊べます。数字キー1〜6で操作できます。セーブは各ブラウザのローカルストレージに保存され、別端末や別URLとは共有されません。
+## 遊び方
+
+index.htmlを開くか、https://sakure-trpg.github.io/under100/ にアクセスします。クリックまたは数字キー1〜6で選択できます。戦闘中はセーブできません。記録はブラウザごとに保存されます。旧「星灯りの旅人」のセーブは引き継ぎません。
+
+## 公開・検証
+
+mainへのpushでGitHub Pagesへ自動公開します。Settings → Pages → SourceはGitHub Actionsを選びます。
+
+node --check game.js
+node game.test.cjs
