@@ -28,3 +28,5 @@ footer #saveStatus{display:inline;color:#555}
 .game{grid-template-columns:minmax(0,1fr)}.enemy-panel{grid-column:1/-1;margin-top:0;border:1px solid var(--line);padding:20px}.enemy-panel[hidden]{display:none}.hero>.journey-meta{grid-column:1/-1;margin-top:0}
 
 .world-label{font-size:11px;line-height:1.8;margin:10px 0 0;color:#555}#worldGuide p{font-size:12px;line-height:1.9;color:#333}
+
+.attack-element{grid-column:1/-1;font-size:12px;line-height:1.8}
