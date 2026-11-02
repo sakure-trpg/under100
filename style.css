@@ -32,3 +32,5 @@ footer #saveStatus{display:inline;color:#555}
 .attack-element{grid-column:1/-1;font-size:12px;line-height:1.8}
 .dungeon-map{font-size:12px;margin-bottom:16px;border-bottom:1px solid #ddd;padding-bottom:12px}.dungeon-map[hidden]{display:none}.dungeon-map summary{cursor:pointer;padding:8px 0}.dungeon-map p{line-height:1.8}.dungeon-map small{color:#555}
 .maze-grid{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));width:100%;max-width:440px;aspect-ratio:1;gap:0;margin:12px auto;border:1px solid #aaa;background:#ddd}.maze-cell{box-sizing:border-box;min-width:0;min-height:0;display:flex;align-items:center;justify-content:center;font-size:clamp(9px,2.5vw,13px);line-height:1;border:2px solid transparent}.maze-cell.unknown{background:#ccc;border-color:#ccc}.maze-cell.revealed{background:#fff}.maze-cell.current{background:#e4e4e4;font-weight:700}
+
+.maze-grid{grid-template-rows:repeat(10,minmax(0,1fr))}.maze-cell.unknown{border:1px solid #bfbfbf}
