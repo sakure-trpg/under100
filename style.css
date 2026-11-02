@@ -30,3 +30,4 @@ footer #saveStatus{display:inline;color:#555}
 .world-label{font-size:11px;line-height:1.8;margin:10px 0 0;color:#555}#worldGuide p{font-size:12px;line-height:1.9;color:#333}
 
 .attack-element{grid-column:1/-1;font-size:12px;line-height:1.8}
+.dungeon-map{font-size:12px;margin-bottom:16px;border-bottom:1px solid #ddd;padding-bottom:12px}.dungeon-map[hidden]{display:none}.dungeon-map summary{cursor:pointer;padding:8px 0}.dungeon-map p{line-height:1.8}.dungeon-map small{color:#555}
